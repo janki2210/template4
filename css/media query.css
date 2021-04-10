@@ -1,0 +1,50 @@
+div{
+    /* display: none; */
+    color: tomato;
+}
+@media screen and (min-width:427px){
+   #mobile{
+        display: block;
+        color: maroon;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media print and (min-width:427px){
+    #mobile{
+        display: block;
+        color:red;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+ }
+@media screen and (max-width:768px){
+    #tablet{
+         display: block;
+         color:teal;
+    }
+ }
+
+@media print and (max-width:768px){
+    #tablet{
+        display: block;
+        color:rgb(226, 38, 201);
+    }
+ }
+ @media screen and (max-width:768px){
+    #laptop{
+         display: block;
+         color:purple;
+    }
+ }
+ @media print and (max-width:768px){
+    #laptop{
+         display: block;
+         color:lightcoral;
+    }
+ }
+ 

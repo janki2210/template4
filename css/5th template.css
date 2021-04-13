@@ -128,6 +128,15 @@
     /* transition: 1s; */
     /* border: 6px solid royalblue; */
 }
+.servicebox-footer a{
+    /* color: #004880; */
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    font-size: 15px;
+}
 /* .servicebox:hover .servicebox-footer img{ */
    /* border: 6px solid yellow;  */
 /* } */

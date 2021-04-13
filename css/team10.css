@@ -133,3 +133,10 @@
     transition: 1s;
     background-color:lightslategray;
 }
+/* mobile screen */
+@media screen and (max-width:426px)
+{
+    .col4{
+        width: 100%;
+    }
+}

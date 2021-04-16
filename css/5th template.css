@@ -150,6 +150,11 @@
     text-align:right;
     padding: 5px 5px;
 }
-
+@media screen and (max-width:427px) {
+    .col4{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
     
 
